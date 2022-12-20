@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row g-4">
+        <!--Product area-->
+        <div class="col-md-4" onclick="hii(),hiii()">
+          <div class="card one">
+            <img src="/iphone 14.png" alt="iphone" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title" id="t">
+                APPLE iPhone 14 Pro Max (Deep Purple, 1 TB)
+              </h5>
+              <h5 class="card-text" id="tt">&#8377; 1,89,900/-</h5>
+              <h6 class="card-text">EMI options also available</h6>
+            </div>
+            <div class="card-footer">
+              <small class="s">Festivel session offers ends soon!!!</small
+              ><br />
+              <small class="logout" onclick="logout()">Logout</small>
+            </div>
+          </div>
+        </div>
+        <!--Calculator area-->
+        <div class="col g-4" id="card12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="cal">EMI Calculater</h5>
+            </div>
+            <div class="row g-2">
+              <div class="input-group">
+                <span class="input-group-text" id="amountt"
+                  >Enter Your Down Payment
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="amount"
+                  aria-describedby="basic-addon3"
+                  onkeypress="numeric(event)"
+                  placeholder="Enter Amount eg:40000"
+                  maxlength="6"
+                  onclick="hd()"
+                />
+                <div class="col text-center">
+                  <button class="btn btn-primary" onclick="ck(),cl()">
+                    Calculate EMI
+                  </button>
+                </div>
+              </div>
+            </div>
+            &nbsp
+          </div>
+          <hr />
+          <!--Monthly EMI Chart area-->
+          <div class="card" id="card11">
+            <div class="card-body">
+              <h5 class="card-title" id="cal">Your EMI Chart</h5>
+            </div>
+            <div class="row">
+              <div class="col-6" id="dem"></div>
+              <div class="col-6" id="demo"></div>
+            </div>
+            <div>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Rate Of Interest</th>
+                    <th scope="col">Instalments &#8377; (Rs)</th>
+                    <th scope="col">Total Amount &#8377; (Rs)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row" id="demo3"></td>
+                    <td id="demo4"></td>
+                    <td id="demo1"></td>
+                    <td id="demo2"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="demo7"></td>
+                    <td id="demo8"></td>
+                    <td id="demo5"></td>
+                    <td id="demo6"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="demo11"></td>
+                    <td id="demo12"></td>
+                    <td id="demo9"></td>
+                    <td id="demo10"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="demo15"></td>
+                    <td id="demo16"></td>
+                    <td id="demo13"></td>
+                    <td id="demo14"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="demo19"></td>
+                    <td id="demo20"></td>
+                    <td id="demo17"></td>
+                    <td id="demo18"></td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="demo23"></td>
+                    <td id="demo24"></td>
+                    <td id="demo21"></td>
+                    <td id="demo22"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-footer">
+              <small
+                >Processing fees and charges are depend on your bank...
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

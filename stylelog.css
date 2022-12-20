@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #36454f;
+}
+h5 {
+  font-weight: bold;
+  color: #ff3f00;
+  text-align: center;
+}
+h6 {
+  color: #36454f;
+  text-align: center;
+  cursor: pointer;
+}
+h6:hover {
+  color: #ff3f00;
+  font-weight: bold;
+}
+#but {
+  font-weight: bold;
+}
+#sup {
+  font-weight: bold;
+}
+#cna {
+  font-weight: bold;
+}

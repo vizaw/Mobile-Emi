@@ -1,0 +1,54 @@
+body {
+  margin-top: 30px;
+  background-color: #36454f;
+}
+#t {
+  font-weight: bold;
+}
+#tt {
+  color: #ff3f00;
+  font-weight: bold;
+}
+img {
+  height: 400px;
+}
+.card {
+  border-radius: 20px;
+}
+.card-footer {
+  text-align: center;
+  font-weight: bold;
+}
+.s {
+  color: darkmagenta;
+}
+.logout {
+  color: #ff3f00;
+}
+.logout:hover {
+  color: black;
+  cursor: pointer;
+}
+h6 {
+  font-weight: bold;
+}
+#t:hover {
+  color: blue;
+}
+.one:hover {
+  transform: scale(1.01, 1.01);
+}
+#cal {
+  font-weight: bold;
+  color: #ff3f00;
+}
+#dem {
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+#demo {
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
